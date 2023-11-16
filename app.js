@@ -8,6 +8,10 @@ buy.addEventListener("click", () => {
   document.getElementById("user_name").value = tg.initDataUnsafe.first_name + " " + tg.initDataUnsafe.last_name;
 });
 
+order.addEventListener("click", () => {
+  tg.close();
+});
+
 
 
 
